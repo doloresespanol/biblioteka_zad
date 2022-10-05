@@ -53,7 +53,7 @@ public class Biblioteka {
 
     public void dodajNowegoCzytelnika(Czytelnik czytelnik){
         if(czyJestCzytelnik(czytelnik)){
-            System.out.println("W tej bibliotece jest już taki czytelnik");
+            System.out.println("Ww tej bibliotece jest już taki czytelnik");
         }else{
             czytelnicy.add(czytelnik);
         }

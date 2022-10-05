@@ -18,6 +18,6 @@ public class Bibliotekarz extends Osoba {
 
     @Override
     public String toString() {
-        return imie+", data zatrudnienia: " + dataZatrudnienia;
+        return imie+", data zatsrudnienia: " + dataZatrudnienia;
     }
 }

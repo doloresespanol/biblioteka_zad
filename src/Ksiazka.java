@@ -37,7 +37,7 @@ public class Ksiazka {
         if(ksiazka.isCzyWypozyczona()==true){
             System.out.println("Książka nie jest dostępna");
         }else{
-            System.out.println("Książka jest dostępna");
+            System.out.println("Ksiąsżka jest dostępna");
         }
     }
 

@@ -29,7 +29,7 @@ public class Czytelnik extends Osoba {
         if(ksiazka.czyWypozyczona == false){
             wypozyczoneKsiazki.add(ksiazka);
         }else{
-            System.out.println("Książka została już wypożyczona");
+            System.out.println("Książksa została już wypożyczona");
         }
     }
 

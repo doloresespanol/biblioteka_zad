@@ -37,6 +37,6 @@ public abstract class Osoba {
 
     @Override
     public String toString() {
-        return "Osoba nazywa się " + imie + " " + nazwisko + " urodzona: " + dataUr;
+        return "Osoba nazywsa się " + imie + " " + nazwisko + " urodzona: " + dataUr;
     }
 }
