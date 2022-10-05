@@ -33,8 +33,8 @@ public class Ksiazka {
         this.czyWypozyczona = czyWypozyczona;
     }
 
-    public void sprawdzCzyKsiazkaJestDostepna(Ksiazka ksiazka){
-        if(ksiazka.isCzyWypozyczona()==true){
+    public void sprawdzCzyKsiazkaJestDostepna(){
+        if(isCzyWypozyczona()==true){
             System.out.println("Książka nie jest dostępna");
         }else{
             System.out.println("Ksiąsżka jest dostępna");
@@ -43,6 +43,6 @@ public class Ksiazka {
 
     @Override
     public String toString() {
-        return "Tytuł: "+tytul+", Autor: "+autor;
+        return "Tytuł: "+tytul+", Autor: "+autor+", czy jest wypożyczona: "+czyWypozyczona;
     }
 }

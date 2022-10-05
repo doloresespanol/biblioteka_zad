@@ -28,6 +28,7 @@ public class Czytelnik extends Osoba {
     public void wypozyczKsiazke(Ksiazka ksiazka){
         if(ksiazka.czyWypozyczona == false){
             wypozyczoneKsiazki.add(ksiazka);
+            ksiazka.czyWypozyczona = true;
         }else{
             System.out.println("Książksa została już wypożyczona");
         }
